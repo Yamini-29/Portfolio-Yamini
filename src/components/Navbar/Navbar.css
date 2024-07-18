@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+    border: 1px solid red; }
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-connect {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #b923b9 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+    border: 1px solid blue; /* Debug border */
+    transition: 0.5s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
