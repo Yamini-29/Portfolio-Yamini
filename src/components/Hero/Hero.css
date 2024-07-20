@@ -1,0 +1,21 @@
+.Hero{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.Hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.Hero h1 span{
+    background: linear-gradient(270deg, #DA8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparents ;
+}

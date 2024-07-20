@@ -24,7 +24,7 @@
     font-size: 22px;
     cursor: pointer;
     color: white;
-    margin-left: auto;
+    margin-left: 700px;
     border: 1px solid blue; /* Debug border */
     transition: 0.5s;
 }
