@@ -1,5 +1,5 @@
 .Hero{
-    margin-top: 150px;
+    margin-top: 110px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,9 +13,44 @@
     font-weight: 600;
 }
 
-.Hero h1 span{
+.Hero h1 span {
     background: linear-gradient(270deg, #DA8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparents ;
+    color: transparent; /* Correct the typo here */
+    -webkit-text-fill-color: transparent; /* Add this line */
+}
+
+.Hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect{
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: linear-gradient(264deg,#DA8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid white;
+}
+.hero-resume:hover{
+    transform: scale(1.05);
 }
